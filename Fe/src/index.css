@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* HomeMain Navbar */
+.thd_navbarMd{
+    @apply lg:hidden  absolute top-0 left-0 w-52  h-screen z-10  bg-indigo-600 p-4  bottom-0   max-h-fit border-r border-gray-300 flex flex-col flex-wrap justify-between
+}
+.thd_navbar{
+    @apply  hidden bg-indigo-600 p-4  bottom-0 left-0 max-h-fit border-r border-gray-300 w-3/12 lg:w-2/12 lg:flex flex-col flex-wrap justify-between
+}
+.thd_itemMenu{
+    @apply flex items-center text-white hover:text-gray-300 font-bold
+}
+.thd_itemSubMenu{
+    @apply flex items-center text-white hover:text-gray-300 font-bold 
+}
+
+/* table */
+.thd_active--status{
+    @apply w-full  h-10 justify-center flex items-center text-white rounded-full font-bold
+}
+
+/* filter icon  */
+.thd_filter--icon{
+    @apply text-gray-500 ml-2 cursor-pointer
+}
+.ant-btn-primary{
+    @apply  bg-sky-600 
+}
